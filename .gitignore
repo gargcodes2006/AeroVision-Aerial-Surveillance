@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# YOLO model weights (downloaded at runtime)
+*.pt
+*.onnx
+
+# Outputs (generated at runtime)
+outputs/*.jpg
+outputs/*.png
+outputs/*.mp4
+outputs/*.avi
+outputs/*.csv
+
+# Temporary files
+temp_*
+tmp_*
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
